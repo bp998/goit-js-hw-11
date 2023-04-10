@@ -24,7 +24,7 @@ a {
   margin-right: 15px;
   height: 40px;
   border: none;
-  border-radius: 25px;
+  border-radius: 5px;
   font-size: 16px;
   padding-inline: 15px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -63,6 +63,11 @@ a {
   align-items: center;
   gap: 10px;
 }
+
+.info-item span {
+  font-weight: 700;
+}
+
 .photo-card {
   overflow: hidden;
   background-color: white;
@@ -82,24 +87,25 @@ a {
   object-fit: cover;
   display: block;
 }
-button {
-  border: none;
-  border-radius: 25px;
-  font-size: 16px;
+
+#button {
   font-weight: 700;
   color: rgb(236, 1, 52);
-  cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-button[type='submit']:hover {
-  background-color: rgb(223, 223, 223);
-}
-button[type='submit'] {
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
   padding: 10px 20px;
+}
+#button:hover {
+  background-color: rgb(223, 223, 223);
+  font-size: 17px;
 }
 .load-more {
   display: flex;
   margin: 0 auto;
+  outline: 1px solid rgba(0, 0, 0, 0.196);
   margin-bottom: 30px;
   padding: 15px 30px;
   visibility: hidden;

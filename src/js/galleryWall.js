@@ -24,19 +24,19 @@ const galleryWall = photoArray => {
                                     <img class="photo-img" src="${webformatURL}" data-source="${largeImageURL}" alt="${tags}" width=100% loading="lazy" />
                                     <div class="info">
                                         <p class="info-item">
-                                            <b>Likes</b>
+                                            <span>Likes</span>
                                             ${likes}
                                         </p>
                                         <p class="info-item">
-                                            <b>Views</b>
+                                            <span>Views</span>
                                             ${views}
                                         </p>
                                         <p class="info-item">
-                                            <b>Comments</b>
+                                            <span>Comments</span>
                                             ${comments}
                                         </p>
                                         <p class="info-item">
-                                            <b>Downloads</b>
+                                            <span>Downloads</span>
                                             ${downloads}
                                         </p>
                                     </div>
